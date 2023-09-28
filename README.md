@@ -36,8 +36,13 @@ Crie a seguinte estrutura de diretórios:
 
 ```
 meu-projeto-api-nextjs/
-├── pages/
-└── api/
+|--  src/
+      |-- pages/
+      |    |-- apis/
+      |         |-- exemplo.js
+      |
+      |-- stytles/ 
+              |-- global.css
 ```
 
 **Passo 4: Criação de uma Rota de API de Exemplo**
