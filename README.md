@@ -30,7 +30,7 @@ Configure o package.json com os scripts necessários:
 Execute o seguinte comando para instalar o Next.js, React e React DOM:
 
 ```bash
-npm install next react react-dom
+npm install next@13.4.19 react@^13.4.19 react-dom@^13.4.19
 ```
 
 **Passo 3: Criação da Estrutura de Diretórios**
@@ -42,9 +42,6 @@ meu-projeto-api-nextjs/
       |-- pages/
       |    |-- apis/
       |         |-- exemplo.js
-      |
-      |-- stytles/ 
-              |-- global.css
 ```
 
 **Passo 4: Criação de uma Rota de API de Exemplo**
