@@ -1,8 +1,31 @@
+# Api next js minimal
 
-# Como iniciar uma api next clean
+- [Como iniciar a api](#projeto-base)
+- [Como adiciona um banco de dados a api](/mySql-conection/README.md)
+
+## Sobre
+
+O projeto teve origem na demanda por uma estrutura de API simplificada, caracterizada por sua simplicidade e eficiência. Seu principal objetivo é fornecer assistência aos desenvolvedores na criação de uma estrutura de API Next.js, com um conjunto mínimo de pacotes, prontamente utilizáveis e compatíveis com servidores que suportem Node.js.
+
+Além disso, o projeto contempla a implantação em diferentes plataformas, sendo que uma delas já está plenamente suportada:
+
+- Implantação no Netlify ✅
+
+Este empreendimento visa simplificar a vida dos desenvolvedores, permitindo-lhes criar APIs com facilidade e agilidade, enquanto mantém um alto padrão de qualidade.
+
+## Participantes
+
+- [@marco antonio](https://github.com/marco0antonio0)
+
+# Como iniciar uma api next minimal pacotes (estrutura base)
+
 ### > deploy netlify como api ✅
+
 ### > funcionando corretamente para deploy ✅
-### > next js versão para pdoer funcionar no netlify >> 13.4.19 ✅ 
+
+### > next js versão para poder funcionar no netlify >> 13.4.19 ✅
+
+## Projeto base
 
 **Passo 1: Inicialização do Projeto**
 Crie um novo diretório para o seu projeto e acesse-o:
@@ -38,13 +61,15 @@ npm install next@13.4.19 react react-dom
 **Passo 3: Criação da Estrutura de Diretórios**
 Crie a seguinte estrutura de diretórios:
 
-```
+```Mardown
 meu-projeto-api-nextjs/
   |-- pages/
   |    |-- api/
   |         |-- exemplo.js
 ```
-### comando rapido de criação 
+
+### comando rapido de criação
+
 ```bash
 mkdir -p pages/api
 ```
