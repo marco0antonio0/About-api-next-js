@@ -40,14 +40,13 @@ Crie a seguinte estrutura de diretórios:
 
 ```
 meu-projeto-api-nextjs/
-|--  src/
-      |-- pages/
-      |    |-- apis/
-      |         |-- exemplo.js
+  |-- pages/
+  |    |-- api/
+  |         |-- exemplo.js
 ```
 ### comando rapido de criação 
 ```bash
-mkdir -p src/pages/apis 
+mkdir -p pages/api
 ```
 
 **Passo 4: Criação de uma Rota de API de Exemplo**
