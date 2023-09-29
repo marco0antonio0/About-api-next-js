@@ -32,7 +32,7 @@ Configure o package.json com os scripts necessários:
 Execute o seguinte comando para instalar o Next.js, React e React DOM:
 
 ```bash
-npm install next@13.4.19 react@^13.4.19 react-dom@^13.4.19
+npm install next@13.4.19 react react-dom
 ```
 
 **Passo 3: Criação da Estrutura de Diretórios**
