@@ -1,6 +1,8 @@
-# em andamento error
 
 # Como iniciar uma api next clean
+### > deploy netlify como api ✅
+### > funcionando corretamente para deploy ✅
+### > next js versão para pdoer funcionar no netlify >> 13.4.19 ✅ 
 
 **Passo 1: Inicialização do Projeto**
 Crie um novo diretório para o seu projeto e acesse-o:
@@ -42,6 +44,10 @@ meu-projeto-api-nextjs/
       |-- pages/
       |    |-- apis/
       |         |-- exemplo.js
+```
+### comando rapido de criação 
+```bash
+mkdir -p src/pages/apis 
 ```
 
 **Passo 4: Criação de uma Rota de API de Exemplo**
