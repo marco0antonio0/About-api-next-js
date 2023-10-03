@@ -2,6 +2,7 @@
 
 - [Como iniciar a api](#projeto-base)
 - [Como adiciona um banco de dados a api](/mySql-conection/README.md)
+- [Como adiciona o cors na api](/Cors/README.md)
 
 ## Sobre
 
